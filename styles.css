@@ -68,7 +68,7 @@ h1 em { color:var(--cyan); font-style:normal; }
 .download { padding:120px 0 140px; }
 .download h2 { margin-top:24px; }
 .download-note { margin:18px 0 45px; color:var(--muted); font-size:14px; }
-.purchase-form { max-width:680px; margin:0 0 18px; padding:24px; border:1px solid var(--line); border-radius:11px; background:rgba(14,22,48,.88); }
+.purchase-form { max-width:680px; margin:0 auto 18px; padding:24px; border:1px solid var(--line); border-radius:11px; background:rgba(14,22,48,.88); }
 .purchase-form label { display:block; margin:0 0 10px; color:#d7d8da; font-size:12px; font-weight:700; }
 .purchase-row { display:grid; grid-template-columns:1fr auto; gap:10px; }
 .purchase-row input { min-width:0; height:52px; padding:0 16px; border:1px solid rgba(255,255,255,.16); border-radius:8px; outline:none; background:#090f23; color:var(--text); font:500 14px/1 Inter,sans-serif; }
