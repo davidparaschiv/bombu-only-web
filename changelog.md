@@ -1,3 +1,7 @@
+## 2026-11-10 — Compatibility correction
+
+- Set Bombu’s minimum system requirement to macOS 26+ throughout the homepage, download label, Terms, SEO/structured data, crawler summary and current README. Local indexing, structured-data parsing and whitespace checks passed. No deployment performed.
+
 ## 2026-11-10
 
 - Updated Bombu’s visible compatibility labels to “MacOS 15+ · Intel & Apple Silicon” at the owner’s request, with matching minimum-version information in Terms, SEO/structured data, crawler summary and current README. Native app requirements/builds were not changed. Local indexing, structured-data and whitespace checks passed; no deployment performed.
