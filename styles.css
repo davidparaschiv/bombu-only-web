@@ -303,3 +303,13 @@ header,main,footer,.partner-bar-inner { width:calc(100% - var(--page-gutter) - v
 .highlight-icon i:nth-child(3) { height:22px; }
 @media(min-width:1001px) and (max-width:1300px) { .feature-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
 @media(max-width:560px) { .hero-highlight { padding:15px; gap:12px; margin-top:24px; } }
+
+/* Center download-section blocks without changing their internal alignment. */
+.download > .section-label,
+.download > h2,
+.download > .download-note,
+.download > .compatibility-note { width:fit-content; max-width:100%; margin-inline:auto; }
+.download > .compatibility-note { max-width:min(650px,100%); }
+.download > .purchase-form,
+.download > .subscription-management,
+.download > .download-list { margin-inline:auto; }
