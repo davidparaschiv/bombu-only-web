@@ -1,5 +1,9 @@
 # Bombu release downloads
 
-No Bombu release URL supplied yet. At the owner's request, site-config.js retains SHIFT Beat's GitHub release URL. It downloads SHIFT Beat, not a verified Bombu installer.
+The website uses:
 
-Before public launch, upload Bombu's installer to the chosen release repository and replace downloadUrl in site-config.js. Keep release asset names consistent if using a latest-release download link. Do not place installers in the Pages branch; .gitignore excludes DMG/PKG/app bundles.
+https://github.com/davidparaschiv/bombu-only-web/releases/latest/download/Bombu.dmg
+
+Create a release at https://github.com/davidparaschiv/bombu-only-web/releases/new and upload the installer with the exact case-sensitive filename **Bombu.dmg**. Publish it as the latest stable release. Keep the asset name unchanged for future releases so the website follows the newest installer automatically.
+
+The URL is configured in site-config.js and mirrored in the HTML fallback. Do not place installers in the Pages branch; .gitignore excludes DMG/PKG/app bundles.

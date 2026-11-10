@@ -133,20 +133,3 @@ purchaseForm.addEventListener('submit', async (event) => {
   }
 });
 loadCountries();
-
-// A visual pad-mode preview only; no audio or controller access.
-const padModes = {
-  hotcue: { labels: ['A','B','C','D','E','F','G','H'], text: 'Eight cue points. Your next move, one touch away.' },
-  loop: { labels: ['1/8','1/4','1/2','1','2','4','8','16'], text: 'Catch a phrase. Make a little more room for the moment.' },
-  sampler: { labels: ['01','02','03','04','05','06','07','08'], text: 'A bank of accents drawn from your own tracks.' },
-  fx: { labels: ['ECHO','ROLL','GATE','FILTER','REVERB','FLANGE','DELAY','CRUSH'], text: 'A different texture. A new direction for the same track.' },
-};
-document.querySelectorAll('[data-pad-mode]').forEach(button => {
-  button.addEventListener('click', () => {
-    const mode = padModes[button.dataset.padMode];
-    document.querySelectorAll('[data-pad-mode]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
-    document.querySelectorAll('.demo-pads span').forEach((pad, index) => { pad.textContent = mode.labels[index]; });
-    document.querySelector('.demo-pads').dataset.mode = button.dataset.padMode;
-    document.querySelector('#pad-demo-description').textContent = mode.text;
-  });
-});

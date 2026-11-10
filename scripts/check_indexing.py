@@ -68,7 +68,7 @@ def check_files(root):
     require(set(urls) == set(expected) and len(urls) == len(expected),
             'Sitemap must match all existing indexable pages, without duplicates')
     for path in ['/', '/terms.html', '/styles.css', '/terms.css', '/app.js',
-                 '/site-config.js', '/favicon.png', '/assets/bombu-icon.png', '/assets/social-card.png', '/assets/shiftbeat-mark-white.png']:
+                 '/site-config.js', '/favicon.png', '/assets/bombu-icon.png', '/assets/bombu-workspace.png', '/assets/social-card.png', '/assets/shiftbeat-mark-white.png']:
         require(crawler.can_fetch('Googlebot', ORIGIN + path), f'Crawler blocked: {path}')
         if path != '/':
             require((root / path.lstrip('/')).is_file(), f'Missing public resource: {path}')

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Bombu — a native Mac DJ workspace for local music, two decks, stems, loops, sampler pads and a wired Pioneer DDJ-FLX4 workflow." />
+    <meta name="description" content="Bombu is a native DJ app for macOS 15+. Mix local music with two decks, stems, loops, sampler pads and a wired Pioneer DDJ-FLX4 workflow." />
     <meta name="theme-color" content="#070b1b" />
     <title>Bombu — Native DJ Performance for Mac</title>
     <link rel="icon" type="image/png" sizes="any" href="favicon.png" />
@@ -13,15 +13,16 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Bombu" />
     <meta property="og:title" content="Bombu — Your music. Your moment." />
-    <meta property="og:description" content="Two decks. Stems, loops and samples. A focused DJ workspace for your local music and DDJ-FLX4." />
+    <meta property="og:description" content="Bombu is a native DJ app for macOS 15+. Mix local music with two decks, stems, loops, sampler pads and a wired Pioneer DDJ-FLX4 workflow." />
     <meta property="og:url" content="https://bombu.net/" />
-    <meta property="og:image" content="https://bombu.net/assets/social-card.png" />
-    <meta property="og:image:alt" content="Bombu — blue and violet waveform app icon" />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content="https://bombu.net/assets/bombu-workspace.png" />
+    <meta property="og:image:alt" content="Bombu app with dual waveforms and blue/violet performance pads" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Bombu — Your music. Your moment." />
-    <meta name="twitter:description" content="Two decks, stems, loops and sampler pads. Made for your Mac and your local music." />
-    <meta name="twitter:image" content="https://bombu.net/assets/social-card.png" />
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Bombu", "url": "https://bombu.net/", "operatingSystem": "macOS 15 or newer", "applicationCategory": "MultimediaApplication", "description": "Bombu \u2014 a native Mac DJ workspace for local music, two decks, stems, loops, sampler pads and a wired Pioneer DDJ-FLX4 workflow.", "offers": {"@type": "Offer", "price": "25", "priceCurrency": "EUR", "description": "Monthly subscription. EUR 25 per month. Cancel anytime."}, "featureList": ["Two-deck DJ performance workspace", "Wired Pioneer DDJ-FLX4 workflow", "Local MP3, AIF/AIFF, FLAC, WAV and AAC music", "Stem preparation and stem-focused controller gestures", "Hot cues, loops, Beat Jump and Pad FX", "Sixteen-sound kick sampler banks", "Saved playlists and prepared local tracks"]}</script>
+    <meta name="twitter:description" content="Bombu is a native DJ app for macOS 15+. Mix local music with two decks, stems, loops, sampler pads and a wired Pioneer DDJ-FLX4 workflow." />
+    <meta name="twitter:image" content="https://bombu.net/assets/bombu-workspace.png" />
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Bombu", "url": "https://bombu.net/", "operatingSystem": "macOS 15 or newer", "applicationCategory": "MultimediaApplication", "description": "Bombu is a native DJ app for macOS 15+. Mix local music with two decks, stems, loops, sampler pads and a wired Pioneer DDJ-FLX4 workflow.", "offers": {"@type": "Offer", "price": "25", "priceCurrency": "EUR", "description": "Monthly subscription. EUR 25 per month. Cancel anytime."}, "featureList": ["Native two-deck DJ workspace for macOS 15+, Intel and Apple Silicon", "Local MP3, AIF/AIFF, FLAC, WAV/WAVE and AAC audio", "Wired Pioneer DDJ-FLX4 workflow with Shift + crossfader stem selection", "Up to sixteen kick samples from vocal-excluded drums and two selectable banks", "Smart Sample phrase selection and sequential pad-triggered accents", "Eight pad modes and sixteen persistent assignable Pad FX", "Automatic loudness matching and separate master/headphone peak protection", "Saved playlists and named hot cues", "Smart looping: beat-aware lengths, jog-adjustable in/out points and Beat Jump", "Precision deck TRIM from -12 to +12 dB on top of automatic loudness matching", "CDJ-inspired Hot Cue visual feedback"], "@id": "https://bombu.net/#app", "image": "https://bombu.net/assets/bombu-workspace.png", "inLanguage": "en", "publisher": {"@type": "Organization", "name": "ShiftBEAT", "url": "https://shift-beat.com/"}, "screenshot": "https://bombu.net/assets/bombu-workspace.png"}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "@id": "https://bombu.net/#website", "name": "Bombu", "url": "https://bombu.net/", "inLanguage": "en", "description": "Bombu is a native DJ app for macOS 15+. Mix local music with two decks, stems, loops, sampler pads and a wired Pioneer DDJ-FLX4 workflow."}</script>
     <link rel="stylesheet" href="styles.css" />
     <script src="site-config.js" defer></script>
     <script src="app.js" defer></script>
@@ -50,29 +51,23 @@
     <main id="top">
       <section class="hero">
         <div class="hero-copy">
-          <p class="kicker"><span></span> Native DJ performance for Mac</p>
-          <h1>Your music.<br /><em>Your moment.</em></h1>
-          <p class="lead">Two decks. Stems, loops and samples. A focused workspace for your local music and Pioneer DDJ-FLX4.</p>
-          <a class="button" href="#download">Get Bombu <span>↓</span></a>
-          <p class="platforms">macOS 15+ · Intel &amp; Apple Silicon</p>
-        </div>
-        <div class="hero-visual" id="performance" aria-label="Illustrative Bombu performance workspace">
-          <div class="analysis-preview performance-preview">
-            <div class="preview-header"><span class="preview-dots" aria-hidden="true">● ● ●</span><span>BOMBU / PERFORMANCE</span><span class="preview-status">LOCAL MUSIC</span></div>
-            <div class="preview-title"><span>Find your own rhythm.</span><small>Illustrative workspace</small></div>
-            <div class="deck-pair">
-              <div class="deck-card"><div class="deck-caption"><span>DECK A</span><small>128.0 BPM</small></div><div class="deck-orbit" aria-hidden="true"><span>♪</span></div><strong>After Hours</strong><small>02:16 / 05:42</small><div class="mini-wave" aria-hidden="true"></div></div>
-              <div class="deck-card deck-violet"><div class="deck-caption"><span>DECK B</span><small>128.0 BPM</small></div><div class="deck-orbit" aria-hidden="true"><span>♪</span></div><strong>Violet Skies</strong><small>00:48 / 06:15</small><div class="mini-wave" aria-hidden="true"></div></div>
-            </div>
-            <div class="pad-playground">
-              <div class="pad-demo-heading"><span>Explore the pads</span><small>Tap a mode</small></div>
-              <div class="pad-modes" role="group" aria-label="Illustrative pad mode"><button type="button" data-pad-mode="hotcue" aria-pressed="true">Hot cues</button><button type="button" data-pad-mode="loop" aria-pressed="false">Loops</button><button type="button" data-pad-mode="sampler" aria-pressed="false">Sampler</button><button type="button" data-pad-mode="fx" aria-pressed="false">Pad FX</button></div>
-              <div class="demo-pads" aria-hidden="true"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span><span>G</span><span>H</span></div>
-              <p id="pad-demo-description" aria-live="polite">Eight cue points. Your next move, one touch away.</p>
-            </div>
-            <div class="preview-bottom"><span><i></i> Two decks. One workspace.</span><span>DESIGNED FOR FLX4</span></div>
+          <div class="hero-intro">
+            <p class="kicker"><span></span> Native DJ performance for Mac</p>
+            <h1>Your music.<br /><em>Your moment.</em></h1>
+          </div>
+          <div class="hero-summary">
+            <p class="lead">Two decks. Stems, loops and samples. A focused workspace for your local music and Pioneer DDJ-FLX4.</p>
+            <a class="button" href="#download">Get Bombu <span>↓</span></a>
+            <p class="platforms">MacOS 15+ · Intel &amp; Apple Silicon</p>
+            <div class="hero-highlight"><span class="highlight-icon" aria-hidden="true"><i></i><i></i><i></i></span><div><strong>Automatic loudness matching</strong><p>Incoming tracks meet the other deck’s level. Keep your attention on the mix.</p></div></div>
           </div>
         </div>
+        <figure class="hero-visual app-screenshot" id="performance">
+          <a class="app-screenshot-link" href="assets/bombu-workspace.png" target="_blank" rel="noopener" aria-label="Open the real Bombu app screenshot at full size">
+            <img src="assets/bombu-workspace.png" width="2808" height="1534" alt="The real Bombu Mac app showing blue Deck A and violet Deck B waveforms, performance modes and eight hot-cue pads per deck." fetchpriority="high" decoding="async" />
+          </a>
+          <figcaption><span>Inside Bombu. Your music, in focus.</span><span>Actual app screenshot · <a href="assets/bombu-workspace.png" target="_blank" rel="noopener">View full size ↗</a></span></figcaption>
+        </figure>
       </section>
 
       <section class="key-points reveal" aria-labelledby="key-points-title">
@@ -81,13 +76,14 @@
           <h2 id="key-points-title">Prepare your tracks.<br />Make them yours.</h2>
         </div>
         <ul class="key-points-list">
-          <li>Play MP3, AIF/AIFF, FLAC, WAV and AAC files from local folders</li>
-          <li>Two decks with detailed waveforms and beat grids</li>
-          <li>Prepare stems and use stem-focused controller gestures</li>
-          <li>Hot cues, loops, Beat Jump and tempo-aware controls</li>
-          <li>Build sixteen-sound kick sampler banks from your tracks</li>
-          <li>A wired Pioneer DDJ-FLX4 workflow on Mac</li>
-          <li>Keep your playlists, cues and prepared tracks together</li>
+          <li>Local MP3, AIF/AIFF, FLAC, WAV and AAC music</li>
+          <li>Instrumental, vocal or full-track selection with Shift + crossfader</li>
+          <li>Up to sixteen kick samples prepared from your own tracks</li>
+          <li>Smart Sample: tap through short accents from a selected phrase</li>
+          <li>Eight pad modes and sixteen assignable Pad FX</li>
+          <li>Beat Jump moves active loops while preserving their length</li>
+          <li>Precision TRIM, automatic loudness matching and output peak protection</li>
+          <li>Saved playlists, named hot cues and cue/loop memories</li>
         </ul>
       </section>
 
@@ -104,30 +100,31 @@
       <section class="features" aria-labelledby="features-title">
         <p class="section-label">Features</p>
         <h2 id="features-title" class="sr-only">Bombu features</h2>
+        <p class="features-intro">CDJ-inspired detail. Built for precise, hands-on performance.</p>
         <div class="feature-grid">
           <article class="reveal">
-            <span class="number">01</span>
-            <div class="feature-icon waveform-icon" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-            <h3>Two decks, in focus</h3>
-            <p>Detailed waveforms, beat grids and a clear blue/violet workspace keep both tracks in view.</p>
+            <div class="feature-topline"><span class="number">01</span><span class="feature-tag">SMART LOOPING</span></div>
+            <div class="feature-icon loop-icon" aria-hidden="true"><span>↔</span></div>
+            <h3>Stay inside the groove.</h3>
+            <p>Set beat-aware loops, halve or double their length, and move them with Beat Jump. Fine-tune the in/out points with the jog, then save the loop for later.</p>
           </article>
           <article class="reveal">
-            <span class="number">02</span>
-            <div class="feature-icon pads-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
-            <h3>Stems with a gesture</h3>
-            <p>Prepare stems locally and choose a stem combination with Bombu’s Shift + crossfader gesture.</p>
+            <div class="feature-topline"><span class="number">02</span><span class="feature-tag">PRECISION TRIM</span></div>
+            <div class="feature-icon level-match-icon" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <h3>Set the level. Keep the detail.</h3>
+            <p>Adjust each deck’s TRIM from −12 to +12 dB on top of automatic loudness matching. Smooth gain changes give you precise control, with output peak protection kept separate.</p>
           </article>
           <article class="reveal">
-            <span class="number">03</span>
-            <div class="feature-icon fx-icon" aria-hidden="true">A · B</div>
-            <h3>Make the pads yours</h3>
-            <p>Move between hot cues, loops, samples and Pad FX. Save your assignments for the next session.</p>
+            <div class="feature-topline"><span class="number">03</span><span class="feature-tag">SMART SAMPLE</span></div>
+            <div class="feature-icon smart-sample-icon" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+            <h3>Make the phrase your instrument.</h3>
+            <p>Hold CUE to choose an instrumental phrase, then tap any pad to play its short accents in order. Shape a new rhythm from the music already in your hands.</p>
           </article>
           <article class="reveal">
-            <span class="number">04</span>
-            <div class="feature-icon midi-icon" aria-hidden="true"><i></i><i></i><i></i></div>
-            <h3>Your tracks, prepared</h3>
-            <p>Keep local playlists and prepared tracks together. Build sixteen-sound kick banks from your music.</p>
+            <div class="feature-topline"><span class="number">04</span><span class="feature-tag">STEM CONTROL</span></div>
+            <div class="feature-icon waveform-icon" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <h3>A gesture. A different track.</h3>
+            <p>Hold a deck’s Shift button and move the crossfader. Release Shift to choose the instrumental, vocals or the full track—without changing the channel mix level.</p>
           </article>
         </div>
       </section>
@@ -159,9 +156,9 @@
         <p class="subscription-management"><a data-customer-portal href="https://billing.stripe.com/p/login/cNi9AM5Rm95q5wxa2d28800">Manage subscription <span aria-hidden="true">↗</span></a><span>Update payment details or cancel using your payment email.</span></p>
 
         <div class="download-list">
-          <a class="release-download" data-release-download href="https://github.com/davidparaschiv/shiftbeat-only-web/releases/latest/download/SHIFT.Beat.dmg">
+          <a class="release-download" data-release-download href="https://github.com/davidparaschiv/bombu-only-web/releases/latest/download/Bombu.dmg">
             <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.7 12.8c0-2.7 2.2-4 2.3-4.1-1.3-1.9-3.3-2.1-4-2.1-1.7-.2-3.3 1-4.2 1-.9 0-2.2-1-3.7-1-1.9 0-3.7 1.1-4.7 2.8-2 3.5-.5 8.7 1.4 11.5 1 1.4 2.1 2.9 3.6 2.8 1.4-.1 2-1 3.7-1s2.2 1 3.7 1c1.5 0 2.5-1.4 3.5-2.8 1.1-1.6 1.5-3.2 1.6-3.3-.1 0-3.2-1.2-3.2-4.8ZM13.9 4.8c.8-1 1.4-2.4 1.2-3.8-1.2.1-2.7.8-3.6 1.8-.8.9-1.4 2.3-1.2 3.6 1.4.1 2.8-.7 3.6-1.6Z" /></svg>
-            <span><strong>Download Bombu for Mac</strong><small>macOS 15+ · Intel &amp; Apple Silicon</small><small>DMG installer</small></span>
+            <span><strong>Download Bombu for Mac</strong><small>MacOS 15+ · Intel &amp; Apple Silicon</small><small>DMG installer</small></span>
             <b class="arrow" aria-hidden="true">↓</b>
           </a>
         </div>
