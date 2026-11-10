@@ -1,0 +1,28 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Installers are published via releases, not the website branch
+*.dmg
+*.pkg
+*.app/
+
+# Dependencies, caches and local previews
+node_modules/
+__pycache__/
+*.py[cod]
+.preview/
+tmp/
+test-reports/
+*.log
+.DS_Store
+
+# Keep backend projects out of the public site
+soundblast-backend/
+shiftbeat-backend/
+bombu-backend/
+.supabase/
+supabase/.temp/

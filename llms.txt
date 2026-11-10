@@ -1,0 +1,10 @@
+# Bombu
+
+> Native two-deck DJ performance for macOS 15+, on Intel and Apple Silicon.
+
+- [Home](https://bombu.net/): Features, pricing and download.
+- [Terms](https://bombu.net/terms.html): Terms of Service.
+
+Works with local MP3, AIF/AIFF, FLAC, WAV/WAVE and AAC (.aac/.m4a) audio, subject to native codec support. Blue/violet decks, detailed waveforms, beat grids, local stem preparation, hot cues, loops, Beat Jump, Pad FX, sampler banks and saved playlists. Designed around a wired Pioneer DDJ-FLX4 workflow. No Bluetooth audio. Local audio is not uploaded; internet is required for license approval and new analysis.
+
+Subscription: EUR 25 per month. Support: support@shift-beat.com.
