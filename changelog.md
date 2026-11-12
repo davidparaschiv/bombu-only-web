@@ -1,3 +1,7 @@
+## 2026-11-12
+
+- Retouched only the four second-row labels in assets/bombu-workspace.png: both decks now show SMART SAMPLE beneath HOT CUE and SHIFT KEY beneath SAMPLER. Preserved the 2808×1534 dimensions and verified decoded pixels outside the four label rectangles are identical to the original. Visually inspected the edited labels; no app/backend behavior changed.
+
 ## 2026-11-10 — Compatibility correction
 
 - Set Bombu’s minimum system requirement to macOS 26+ throughout the homepage, download label, Terms, SEO/structured data, crawler summary and current README. Local indexing, structured-data parsing and whitespace checks passed. No deployment performed.
