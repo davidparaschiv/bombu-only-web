@@ -1,3 +1,7 @@
+## 2026-11-13
+
+- Changed PAD FX2 to RMX on both decks in assets/bombu-workspace.png, retaining the earlier SMART SAMPLE and SHIFT KEY edits. Verified the 2808×1534 dimensions and identical decoded pixels outside the two label rectangles; visually inspected both replacements.
+
 ## 2026-11-12
 
 - Retouched only the four second-row labels in assets/bombu-workspace.png: both decks now show SMART SAMPLE beneath HOT CUE and SHIFT KEY beneath SAMPLER. Preserved the 2808×1534 dimensions and verified decoded pixels outside the four label rectangles are identical to the original. Visually inspected the edited labels; no app/backend behavior changed.
