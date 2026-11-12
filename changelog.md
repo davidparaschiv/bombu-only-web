@@ -1,5 +1,7 @@
 ## 2026-11-13
 
+- Replaced the homepage feature copy with the owner's seven supplied features, grouped into the existing four cards under Includes:. Reused existing icons and styling; the screenshot is unchanged. Updated the crawler feature summary to match.
+
 - Added the owner's RMX support statement above the hero screenshot, with a blue/violet bordered callout, RMX badge and emphasized Pioneer-100 / FLX4-only wording. The callout stacks on mobile. Local indexing and whitespace checks passed; no backend changes.
 
 - Changed PAD FX2 to RMX on both decks in assets/bombu-workspace.png, retaining the earlier SMART SAMPLE and SHIFT KEY edits. Verified the 2808×1534 dimensions and identical decoded pixels outside the two label rectangles; visually inspected both replacements.

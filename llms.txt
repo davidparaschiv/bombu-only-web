@@ -21,16 +21,15 @@ macOS 26+, on Intel and Apple Silicon Macs. Wired controller/audio workflow; Blu
 
 Local MP3, AIF/AIFF, FLAC, WAV/WAVE and AAC (.aac/.m4a) audio, subject to native codec support. Local folders can include subfolders.
 
-## Features
+## Includes:
 
-- Stem selection: hold the deck's Shift, move the crossfader, then release Shift to select instrumental, vocals or the full track.
-- Sampler banks: up to sixteen kick clips from vocal-excluded drums, with two pad-selectable banks and cached preparation.
-- Smart Sample Mode: select an instrumental phrase by holding CUE, then trigger its short accents sequentially with pad presses.
-- Eight pad modes: Hot Cue, Keyboard, Pad FX1, Pad FX2, Beat Jump, Beat Loop, Sampler and Smart Sample Mode.
-- Sixteen assignable Pad FX with hold/release behavior and persistent assignments.
-- Smart looping: beat-aware loop lengths, jog-adjustable in/out boundaries, halving/doubling, Beat Jump that preserves loop length, and saved cue/loop memories.
-- Precision TRIM: per-deck -12 to +12 dB gain on top of automatic track loudness matching, with separate master/headphone peak protection. This is not a claim of certified loudness metering or true-peak limiting.
-- CDJ-inspired Hot Cue visual feedback, saved playlists, named hot cues, waveforms and beat grids.
+- Automatic smart sampler / slicer.
+- Recorded vocal and instrumental samples based on your track.
+- Automatic stem generation.
+- RMX support.
+- Automatic loop syncing.
+- Automatic loudness correction.
+- Similar-BPM songs inside your folder.
 
 ## Subscription and connectivity
 
